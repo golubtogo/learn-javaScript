@@ -17,6 +17,4 @@ function f(n) {
     return result;
 }
 
-f(6);
-
-
+f(100);
