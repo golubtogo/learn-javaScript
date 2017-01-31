@@ -242,7 +242,6 @@ function checkAge(age){
 alert ( checkAge() );
 
 
-**/
 
 function showMin( a,b ) {
     if ( a < b ) {
@@ -255,6 +254,8 @@ function showMin( a,b ) {
 }
 
 alert ( showMin(34,5) );
+
+**/
 
 
 
