@@ -5,6 +5,9 @@
  * Learn functions
  *
  */
+
+
+/**
 function showMin( a,b ) { // функция которая выбирает меньшее из двух чисел
     if ( a < b ) {
         return (a);
@@ -16,3 +19,5 @@ function showMin( a,b ) { // функция которая выбирает ме
 }
 
 alert ( showMin(34,5) );
+
+*/
