@@ -65,7 +65,7 @@ function fib(n) {
 
 //fib(7);
 
-// Вариант 2. С запоминаем значений в масив
+// Вариант 2. (от Димы) С запоминаем значений в масив
 
 var arr = [];
 
@@ -83,8 +83,24 @@ function fibArr(n) {
 
 //fibArr(7);
 
+// Вариант 3. (от Димы) С циклом
+function fibFor(n) {
+    var a = 1, b = 1;
+    var c = a + b;
+    for (var i = 3; i <= n; i++){
+    var c = a + b;
+        a = b;
+        b = c;
+
+}
+    return c;
+}
+
+fibFor(7);
 
 
+
+//Задача 4. (от Димы) Написать функцию для QuickSort
 
 
 
