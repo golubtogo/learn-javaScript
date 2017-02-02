@@ -2,6 +2,7 @@
  * Created by nata on 1/31/17.
  */
 
+/**
 var arr = [];
 
 function f(n) {
@@ -18,3 +19,5 @@ function f(n) {
 }
 
 f(100);
+
+*/
