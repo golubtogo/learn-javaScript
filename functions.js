@@ -1,7 +1,7 @@
 /**
  * Created by nata on 2/2/17.
  */
-
+//Задача 1
 //Напишите функцию sumTo(n), которая для данного n вычисляет сумму чисел от 1 до n, например:
 //1. Через рекурсию, т.к. sumTo(n) = n + sumTo(n-1) для n > 1.
 function sumToRec(n) {
@@ -39,3 +39,19 @@ function sumToPr(n) {
 }
 
 //sumToPr(4);
+
+
+// Задача 2. Написать функцию factorial(n), которая возвращает факториал числа n!, используя рекурсивный вызов.
+function factorial(n) {
+    if ( n > 1 ) {
+        return n * factorial( n - 1 );
+    } else {
+        return n;
+    }
+}
+
+//factorial(5);
+
+
+
+
